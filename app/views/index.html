@@ -12,7 +12,7 @@
 
 <!-- Set the page title -->
 {% block pageTitle %}
-  NHS.UK prototype kit
+  Data and Insight
 {% endblock %}
 
 <!-- For adding a breadcrumb -->
@@ -29,61 +29,68 @@
 <!-- Page layout code can be found at https://service-manual.nhs.uk/design-system/styles/layout -->
 {% block content %}
   <div class="nhsuk-grid-row">
-    <div class="nhsuk-grid-column-two-thirds">
+    <div class="nhsuk-grid-column-full">
 
       <!-- Change the page title here -->
       <h1>
-        NHS BSA Prototype Kit
-        <span class="nhsuk-caption-l nhsuk-caption--bottom">Forked from Version {{version}} of the NHS.UK Prototype Kit</span>
+        Data and Insight
+        <span class="nhsuk-caption-l nhsuk-caption--bottom">A prototype containing all 3 Data systems, ePACT2, eDEN and eOPS  </span>
       </h1>
 
       <!-- Add your content here -->
       <!-- Styles and components can be found at https://service-manual.nhs.uk/design-system -->
 
-      <p class="nhsuk-lede-text">
-        This kit lets you rapidly create HTML prototypes of NHS services.
+      <p>
+        This is a prototype which will hold all 3 data systems, allowing for design iterations to be made and user testing to be run.
       </p>
+      <p>A full design log will be stored here showing each version of the prototype and the iterations that have been done per version.</p>
 
       <hr>
 
-      <h2>
-        About this page
-      </h2>
+    </div>
+    <div class="nhsuk-grid-column-two-thirds">
 
-      <p>
-        Use this page as the index for your project.
-      </p>
-      
-      <p>
-        You'll find the code for this page at <strong>/app/views/index.html</strong>.
-      </p>
+      <h2 class="nhsuk-heading-l">Prototypes</h2>
+      <p>These are the 3 data systems which are currently in place.</p>
 
-      <p>
-        There is also an <a href="/page-example">example page</a>, which contains a selection of NHS BSA and NHS.UK frontend styles and components.
-      </p>
-
-      <hr>
-
-      <h2>
-        Get started
-      </h2>
-
-      <p>Get started by using the:</p>
-
-      <ul>
-        <li>
-          <a href="/docs/how-tos">how to guides</a>
-        </li>
-        <li>
-          <a href="/docs/page-templates">page templates</a>
-        </li>
-        <li>
-          code snippets for styles and components from the <a href="https://service-manual.nhs.uk/design-system">NHS digital service manual</a>
-        </li>
-      </ul>
+      <div class="nhsuk-action-link">
+        <a class="nhsuk-action-link__link" href="ePACT/index-epact">
+          <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" width="36" height="36">
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
+          </svg>
+          <span class="nhsuk-action-link__text">ePACT2</span>
+        </a>
+      </div>
+      <div class="nhsuk-action-link">
+        <a class="nhsuk-action-link__link" href="eDEN/index-eden">
+          <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" width="36" height="36">
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
+          </svg>
+          <span class="nhsuk-action-link__text">eDEN</span>
+        </a>
+      </div>
+      <div class="nhsuk-action-link">
+        <a class="nhsuk-action-link__link" href="eOPS/index-eops">
+          <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" width="36" height="36">
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
+          </svg>
+          <span class="nhsuk-action-link__text">eOPS</span>
+        </a>
+      </div>
 
       <!-- End of content -->
 
+    </div>
+    <div class="nhsuk-grid-column-one-third">
+      <div class="nhsuk-inset-text nhsuk-u-margin-top-0">
+        <h2 class="nhsuk-heading-m">Resources</h2>
+        <ul class="nhsuk-list">
+          <li><a href="#">Design log (to-do)</a></li>
+        </ul>
+      </div>      
     </div>
   </div>
 {% endblock %}

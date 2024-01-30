@@ -12,7 +12,7 @@
 
 <!-- Set the page title -->
 {% block pageTitle %}
-  Data and Insight
+Data and Insight
 {% endblock %}
 
 <!-- For adding a breadcrumb -->
@@ -28,69 +28,133 @@
 <!-- For adding page content -->
 <!-- Page layout code can be found at https://service-manual.nhs.uk/design-system/styles/layout -->
 {% block content %}
-  <div class="nhsuk-grid-row">
-    <div class="nhsuk-grid-column-full">
+<div class="nhsuk-grid-row">
+  <div class="nhsuk-grid-column-full">
 
-      <!-- Change the page title here -->
-      <h1>
-        Data and Insight
-        <span class="nhsuk-caption-l nhsuk-caption--bottom">A prototype containing all 3 Data systems, ePACT2, eDEN and eOPS  </span>
-      </h1>
+    <!-- Change the page title here -->
+    <h1>
+      Data and Insight
+      <span class="nhsuk-caption-l nhsuk-caption--bottom">A prototype containing all 3 Data systems, ePACT2, eDEN and
+        eOPS </span>
+    </h1>
 
-      <!-- Add your content here -->
-      <!-- Styles and components can be found at https://service-manual.nhs.uk/design-system -->
+    <!-- Add your content here -->
+    <!-- Styles and components can be found at https://service-manual.nhs.uk/design-system -->
 
-      <p>
-        This is a prototype which will hold all 3 data systems, allowing for design iterations to be made and user testing to be run.
-      </p>
-      <p>A full design log will be stored here showing each version of the prototype and the iterations that have been done per version.</p>
+    <p>
+      This is a prototype which will hold all 3 data systems, allowing for design iterations to be made and user testing
+      to be run.
+    </p>
+    <p>A full design log will be stored here showing each version of the prototype and the iterations that have been
+      done per version.</p>
 
-      <hr>
+    <hr>
 
+  </div>
+  <div class="nhsuk-grid-column-two-thirds">
+
+    <h2 class="nhsuk-heading-l">Prototypes</h2>
+    <p>These are the 3 data systems which are currently in place.</p>
+
+    <div class="nhsuk-action-link">
+      <a class="nhsuk-action-link__link" href="ePACT/index-epact">
+        <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+          aria-hidden="true" width="36" height="36">
+          <path d="M0 0h24v24H0z" fill="none"></path>
+          <path
+            d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z">
+          </path>
+        </svg>
+        <span class="nhsuk-action-link__text">ePACT2</span>
+      </a>
     </div>
-    <div class="nhsuk-grid-column-two-thirds">
-
-      <h2 class="nhsuk-heading-l">Prototypes</h2>
-      <p>These are the 3 data systems which are currently in place.</p>
-
-      <div class="nhsuk-action-link">
-        <a class="nhsuk-action-link__link" href="ePACT/index-epact">
-          <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" width="36" height="36">
-            <path d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
-          </svg>
-          <span class="nhsuk-action-link__text">ePACT2</span>
-        </a>
-      </div>
-      <div class="nhsuk-action-link">
-        <a class="nhsuk-action-link__link" href="eDEN/index-eden">
-          <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" width="36" height="36">
-            <path d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
-          </svg>
-          <span class="nhsuk-action-link__text">eDEN</span>
-        </a>
-      </div>
-      <div class="nhsuk-action-link">
-        <a class="nhsuk-action-link__link" href="eOPS/index-eops">
-          <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" width="36" height="36">
-            <path d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
-          </svg>
-          <span class="nhsuk-action-link__text">eOPS</span>
-        </a>
-      </div>
-
-      <!-- End of content -->
-
+    <div class="nhsuk-action-link">
+      <a class="nhsuk-action-link__link" href="eDEN/index-eden">
+        <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+          aria-hidden="true" width="36" height="36">
+          <path d="M0 0h24v24H0z" fill="none"></path>
+          <path
+            d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z">
+          </path>
+        </svg>
+        <span class="nhsuk-action-link__text">eDEN</span>
+      </a>
     </div>
-    <div class="nhsuk-grid-column-one-third">
-      <div class="nhsuk-inset-text nhsuk-u-margin-top-0">
-        <h2 class="nhsuk-heading-m">Resources</h2>
-        <ul class="nhsuk-list">
-          <li><a href="#">Design log (to-do)</a></li>
-        </ul>
-      </div>      
+    <div class="nhsuk-action-link">
+      <a class="nhsuk-action-link__link" href="eOPS/index-eops">
+        <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+          aria-hidden="true" width="36" height="36">
+          <path d="M0 0h24v24H0z" fill="none"></path>
+          <path
+            d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z">
+          </path>
+        </svg>
+        <span class="nhsuk-action-link__text">eOPS</span>
+      </a>
+    </div>
+
+    <hr>
+
+    <h2 class="nhsuk-heading-l">Portal designs</h2>
+    <p>The portal is the first screen the user will see upon sign in, from here the user will be able to navigate into
+      the relevant system they have access to.</p>
+    <p>Users generally wont have access to all 3 systems, but this is still a possibility.</p>
+
+    <div class="nhsuk-action-link">
+      <a class="nhsuk-action-link__link" href="portal-1">
+        <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+          aria-hidden="true" width="36" height="36">
+          <path d="M0 0h24v24H0z" fill="none"></path>
+          <path
+            d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z">
+          </path>
+        </svg>
+        <span class="nhsuk-action-link__text">Portal (1 system)</span>
+      </a>
+    </div>
+    <div class="nhsuk-action-link">
+      <a class="nhsuk-action-link__link" href="portal-3">
+        <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+          aria-hidden="true" width="36" height="36">
+          <path d="M0 0h24v24H0z" fill="none"></path>
+          <path
+            d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z">
+          </path>
+        </svg>
+        <span class="nhsuk-action-link__text">Portal (3 system)</span>
+      </a>
+    </div>
+
+    <hr>
+
+    <h2 class="nhsuk-heading-l">Registration prototype</h2>
+    <p>Potential ways a user might gain access to the 3 systems, the process is currently dealt with via email and a
+      user must sent in certain docuemnts to be able to get authorised for access.</p>
+    <p>The registration journey could be simplified by being a self-serve digital journey.</p>
+
+    <div class="nhsuk-action-link">
+      <a class="nhsuk-action-link__link" href="#">
+        <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+          aria-hidden="true" width="36" height="36">
+          <path d="M0 0h24v24H0z" fill="none"></path>
+          <path
+            d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z">
+          </path>
+        </svg>
+        <span class="nhsuk-action-link__text">Registration</span>
+      </a>
+    </div>
+
+    <!-- End of content -->
+
+  </div>
+  <div class="nhsuk-grid-column-one-third">
+    <div class="nhsuk-inset-text nhsuk-u-margin-top-0">
+      <h2 class="nhsuk-heading-m">Resources</h2>
+      <ul class="nhsuk-list">
+        <li><a href="#">Design log (to-do)</a></li>
+      </ul>
     </div>
   </div>
+</div>
 {% endblock %}

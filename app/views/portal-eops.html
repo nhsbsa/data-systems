@@ -1,0 +1,79 @@
+<!-- Use this page as the index for your project -->
+
+<!-- ADDING CUSTOM CSS - Add your custom CSS or Sass in /app/assets/sass/main.scss -->
+
+<!-- Extends the layout from /views/layout.html -->
+{% extends 'layout.html' %}
+<!-- 
+  In /views/layout.html you can:
+    - change the header and footer 
+    - add custom CSS and JavaScript
+-->
+
+<!-- Set the page title -->
+{% block pageTitle %}
+Data and Insight
+{% endblock %}
+
+<!-- For adding a breadcrumb -->
+<!-- Code examples can be found at https://service-manual.nhs.uk/design-system/components/breadcrumbs -->
+{% block beforeContent %}
+{% endblock %}
+
+<!-- For adding a back link -->
+<!-- Code examples can be found at https://service-manual.nhs.uk/design-system/components/back-link -->
+{% block outerContent %}
+{% endblock %}
+
+<!-- For adding page content -->
+<!-- Page layout code can be found at https://service-manual.nhs.uk/design-system/styles/layout -->
+{% block content %}
+<div class="nhsuk-grid-row">
+
+    <div class="nhsuk-grid-column-full">
+        <h1 class="nhsuk-heading-xl">
+            <span class="nhsuk-caption-l">
+                Data services
+                <span class="nhsuk-u-visually-hidden"> - </span>
+            </span>eOPS
+        </h1>
+    </div>
+
+    <div class="nhsuk-grid-column-two-thirds">
+
+        <p>Use this system to access ophthalmic data.</p>
+        <p>eOPS is an online application designed to optimize the handling of ophthalmic data. Users benefit from access
+            to vital information, ensuring a swift and efficient data retrieval process.</p>
+        <p>The platform offers intuitive and user-friendly reporting tools, empowering users to easily manage reports
+            with enhanced efficiency. Additionally, eOPS facilitates the seamless refresh and exportation of dashboards
+            and flat data tables, further streamlining data manipulation. The application enhances data comprehension
+            through visually appealing data visualizations, providing a comprehensive and insightful overview of
+            ophthalmic data.</p>
+
+        <a href="#" class="nhsuk-button nhsuk-u-margin-bottom-9 nhsuk-u-margin-top-5">Access
+            eOPS Data</a>
+
+        <h2 class="nhsuk-heading-m">Data services support</h2>
+        <p>If you have any queries or need require support accessing data, contact our data support team, <a
+                href="mailto:DataServicesSupport@nhsbsa.nhs.uk">dataServicesSupport@nhsbsa.nhs.uk</a></p>
+
+    </div>
+
+    <div class="nhsuk-grid-column-one-third">
+        <div class="nhsuk-inset-text nhsuk-u-margin-top-0">
+            <h2 class="nhsuk-heading-m">Useful links</h2>
+            <ul class="nhsuk-list">
+                <li><a href="#">eOPS information website</a></li>
+                <li><a href="#">Training in data services</a></li>
+                <li><a href="#">How to request data</a></li>
+                <li><a href="#">Data communities</a></li>
+                <li><a href="#">Release calendar</a></li>
+                <li><a href="#">Open data portal</a></li>
+                <li><a href="#">Data services information website</a></li>
+                <li><a href="#">NHS Business Services Authority</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

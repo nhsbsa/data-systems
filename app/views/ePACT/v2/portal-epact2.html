@@ -1,0 +1,79 @@
+<!-- Use this page as the index for your project -->
+
+<!-- ADDING CUSTOM CSS - Add your custom CSS or Sass in /app/assets/sass/main.scss -->
+
+<!-- Extends the layout from /views/layout.html -->
+{% extends 'layout.html' %}
+<!-- 
+  In /views/layout.html you can:
+    - change the header and footer 
+    - add custom CSS and JavaScript
+-->
+
+<!-- Set the page title -->
+{% block pageTitle %}
+Data and Insight
+{% endblock %}
+
+<!-- For adding a breadcrumb -->
+<!-- Code examples can be found at https://service-manual.nhs.uk/design-system/components/breadcrumbs -->
+{% block beforeContent %}
+{% endblock %}
+
+<!-- For adding a back link -->
+<!-- Code examples can be found at https://service-manual.nhs.uk/design-system/components/back-link -->
+{% block outerContent %}
+{% endblock %}
+
+<!-- For adding page content -->
+<!-- Page layout code can be found at https://service-manual.nhs.uk/design-system/styles/layout -->
+{% block content %}
+<div class="nhsuk-grid-row">
+
+	<div class="nhsuk-grid-column-full">
+		<h1 class="nhsuk-heading-xl">
+			<span class="nhsuk-caption-l">
+				Data services
+				<span class="nhsuk-u-visually-hidden"> - </span>
+			</span>ePACT2
+		</h1>
+	</div>
+
+	<div class="nhsuk-grid-column-two-thirds">
+
+        <p>Us this service to access prescription data</p>
+
+        <p>The ePACT2 service will allow you to access interactive and easy to use reports and dashboards, view high level data summaries down to individual prescriotion items and patient level detail, build bespoke analysis and exporting data.</p>
+
+        <h2 class="nhsuk-heading-m">Understanding ePACT2 in data service</h2>
+        
+        <p>Data is available 6 weeks after the dispensing month.</p>
+
+        <p>ePACT2 contains data down to single prescriotion level. If you have access to this level of data, remember that you cannot share confidential data outside of your organisation. For this reason, you should have read and agreed to the <a href="#">ePACT2 User Agreement</a> as part of the registration process.</p>
+
+        <a href="homepage" class="nhsuk-button">Access ePACT2 Data</a>
+
+        <h2 class="nhsuk-heading-m">Data services support</h2>
+
+        <p>If you have any queries or require support accessing data, contact our data support team, <a href="#">dataservicessupport@nhsbsa.nhs.uk</a>.</p>
+
+	</div>
+
+	<div class="nhsuk-grid-column-one-third">
+		<div class="nhsuk-inset-text nhsuk-u-margin-top-0">
+			<h2 class="nhsuk-heading-m">Useful links</h2>
+			<ul class="nhsuk-list">
+                <li><a href="#">ePACT2 information website</a></li>
+                <li><a href="#">Training in data services</a></li>
+                <li><a href="#">How to request data</a></li>
+                <li><a href="#">Data communities</a></li>
+                <li><a href="#">Release calendar</a></li>
+                <li><a href="#">Open data portal</a></li>
+                <li><a href="#">Data services information website</a></li>
+                <li><a href="#">NHS Business Services Authority</a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+{% endblock %}

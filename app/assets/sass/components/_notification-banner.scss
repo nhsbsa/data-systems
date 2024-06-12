@@ -1,0 +1,119 @@
+.nhsuk-notification-banner {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.25;
+    margin-bottom: 30px;
+    border: 5px solid #1d70b8;
+    background-color: #1d70b8;
+}
+.nhsuk-notification-banner__header {
+    padding: 2px 20px 5px;
+}
+.nhsuk-notification-banner__header {
+    padding: 2px 15px 5px;
+    border-bottom: 1px solid transparent;
+}
+.nhsuk-notification-banner__title {
+    font-size: 19px;
+    line-height: 1.25;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.nhsuk-notification-banner__content {
+    color: #0b0c0c;
+    padding: 20px;
+    background-color: #f0f4f5;
+}
+.nhsuk-notification-banner__heading {
+    font-size: 24px;
+    line-height: 1.1111111111;
+    font-weight: 700;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+// .nhsuk-notification-banner {
+
+//     border: $nhsuk-border-width solid $nhsuk-brand-colour;
+
+//     background-color: $nhsuk-brand-colour;
+
+//     &:focus {
+//         outline: $nhsuk-focus-width solid $nhsuk-focus-colour;
+//     }
+// }
+
+// .nhsuk-notification-banner__header {
+//     padding: 2px 16px 4px;
+
+//     // Ensures the notification header appears separate to the notification body text in high contrast mode
+//     border-bottom: 1px solid transparent;
+
+//     @include nhsuk-media-query($from: tablet) {
+//         padding: 2px 24px 4px;
+//     }
+// }
+
+// .nhsuk-notification-banner__title {
+//     // Set the size again because this element is a heading and the user agent
+//     // font size overrides the inherited font size
+//     font-size: 19px;
+//     font-weight: bold;
+//     margin: 0;
+//     padding: 0;
+//     color: white;
+// }
+
+// .nhsuk-notification-banner__content {
+//     padding: 16px;
+
+//     background-color: $color_nhsuk-grey-5;
+
+//     @include nhsuk-media-query($from: tablet) {
+//         padding: 16px
+//     }
+
+//     // Wrap content at the same place that a 2/3 grid column ends, to maintain
+//     // shorter line-lengths when the notification banner is full width
+//     >* {
+//         // When elements have their own padding (like lists), include the padding
+//         // in the max-width calculation
+//         box-sizing: border-box;
+
+//         // Calculate the internal width of a two-thirds column...
+//         $two-col-width: ($nhsuk-page-width * 2 / 3) - ($nhsuk-gutter * 1 / 3);
+
+//         // ...and then factor in the left border and padding
+//         $banner-exterior: ($padding-tablet + $nhsuk-border-width);
+//         max-width: $two-col-width - $banner-exterior;
+//     }
+
+//     > :last-child {
+//         margin-bottom: 0;
+//     }
+// }
+
+// .nhsuk-notification-banner__heading {
+//     font-size: 24px;
+//     font-weight: bold;
+
+//     margin: 0 0 16px;
+
+//     padding: 0;
+// }
+
+// // .nhsuk-notification-banner__link {
+
+// // }
+
+// // .nhsuk-notification-banner--success {
+// //     border-color: $nhsuk-success-colour;
+
+// //     background-color: $nhsuk-success-colour;
+
+// //     .nhsuk-notification-banner__link {
+// //         @include nhsuk-link-style-success;
+// //     }
+// // }

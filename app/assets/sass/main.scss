@@ -34,3 +34,35 @@
 .nhsuk-account__login--link:focus .nhsuk-account__login--icon {
     fill: #212b32;
 }
+
+// dashboard overrides
+.nhsuk-header__navigation-list.custom-dashboard-nav {
+    justify-content: left;
+}
+.side-nav .data-info {
+    padding: 32px;
+
+    span {
+        font-weight: bold;
+    }
+}
+.full-width {
+    width:100%
+}
+.nhsuk-header__link {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+
+    &:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+}
+.white-text {
+    color: #ffffff;
+
+    span {
+        font-weight: bold;
+    }
+}

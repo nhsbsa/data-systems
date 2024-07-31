@@ -7,6 +7,7 @@
 @import 'components/full-width';
 @import 'components/nhsbsa-manage';
 @import 'components/notification-banner';
+@import 'components/pagination';
 
 ///////////////////////////////////////////
 // Add your custom CSS/Sass styles below...
@@ -92,4 +93,22 @@
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
+}
+
+.nhsbsa-filter-tag:after {
+    background-image: url(https://raw.githubusercontent.com/nhsuk/nhsuk-frontend/1ff76e3a864f181461ef6ba21035d39db18fb4d6/packages/assets/icons/icon-close.svg);
+    content: "";
+    background-size: contain;
+    display: inline-block;
+    font-weight: bold;
+    height: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+    width: 20px;
+}
+
+// seconary colour text
+
+.nhsuk-secondary-color {
+    color: $nhsuk-secondary-text-color;
 }

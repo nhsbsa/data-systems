@@ -1,0 +1,34 @@
+{% extends 'layout-top-nav.html' %}
+
+{% block pageTitle %}
+Page templates - NHS.UK prototype kit
+{% endblock %}
+
+
+
+{% block content %}
+<div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+        {{ backLink({
+            "href": "latest-news",
+            "text": "Go back"
+          }) }}
+        <h1 class="nhsuk-heading-xl">
+            <span class="nhsuk-caption-l">
+                ePACT2
+                <span class="nhsuk-u-visually-hidden"> - </span>
+            </span>Academic Health Science Networks (AHSN) Rebrand
+        </h1>
+        <p class="nhsuk-secondary-color">Posted: 19 July 2024</p>
+    </div>
+</div>
+<div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
+        <p>Please note, changes have taken place within the system in the upload of May 2024 prescribing data to rebrand AHSNs to their new name of Health Innovation Networks (HIN). Therefore, any reporting undertaken for prescribing data will reflect the new naming.</p>
+
+        <p>The ePACT2 upload aligns with the new naming of the overall organisation and individual networks within the Health Innovation Network. There are no changes to the structure in the ePACT2 data this remains the same as the previous year, it is only name changes that have been applied.</p>
+
+        <p>Headings in the dashboards and reports will be amended to fit the new naming convention.</p>
+    </div>
+</div>
+{% endblock %}

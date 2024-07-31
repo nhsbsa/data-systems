@@ -1,0 +1,126 @@
+{% extends 'layout-top-nav.html' %}
+
+{% block pageTitle %}
+Page templates - NHS.UK prototype kit
+{% endblock %}
+
+
+
+{% block content %}
+<div class="nhsuk-grid-row">
+
+    <div class="nhsuk-grid-column-full">
+        <div class="nhsuk-grid-row">
+            <div class="nhsuk-grid-column-two-thirds">
+                {{ backLink({
+                    "href": "homepage",
+                    "text": "Go back"
+                  }) }}
+                <h1 class="nhsuk-heading-xl">
+                    <span class="nhsuk-caption-l">
+                        eDEN
+                        <span class="nhsuk-u-visually-hidden"> - </span>
+                    </span>Latest news
+                </h1>
+            </div>
+        </div>
+        <div class="nhsuk-grid-row">
+            <div class="nhsuk-grid-column-one-third">
+                <h2 class="nhsuk-heading-m">Filter</h2>
+                <div class="nhsuk-form-group">
+                    <label class="nhsuk-label" for="search-input">
+                        Search keywords
+                    </label>
+                    <input class="nhsuk-input" id="search-input" name="search-input" type="text">
+                </div>
+                <a href="#" class="nhsuk-button">Search</a>
+                <hr class="nhsuk-u-margin-top-0 nhsuk-u-margin-bottom-3">
+                <h3 class="nhsuk-heading-s">Filtered keywords</h3>
+                <button class="nhsuk-button nhsuk-button--reverse nhsuk-u-margin-right-3 nhsbsa-filter-tag" data-module="nhsuk-button" type="submit">
+                    Dental
+                </button>
+                <button class="nhsuk-button nhsuk-button--reverse nhsuk-u-margin-right-3 nhsbsa-filter-tag" data-module="nhsuk-button" type="submit">
+                    Analysis
+                </button>
+                <button class="nhsuk-button nhsuk-button--reverse nhsbsa-filter-tag" data-module="nhsuk-button" type="submit">
+                    Science networks
+                </button>
+                <p><a href="#">Clear filter</a></p>
+                <hr class="nhsuk-u-margin-top-0">
+            </div>
+            <div class="nhsuk-grid-column-two-thirds">
+                <h2 class="nhsuk-heading-m">Lorem ipsum dolor sit amet consectetur</h2>
+                <p class="nhsuk-body-s">Posted: 19 July 2024</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam adipisci reiciendis id. Ducimus, sequi esse libero saepe nobis maiores, possimus inventore voluptatibus aperiam placeat veritatis, beatae iusto. Eum, repellendus commodi.</p>
+                <p><a href="latest-news-post">Read more</a></p>
+                <hr>
+                <h2 class="nhsuk-heading-m">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, laudantium</h2>
+                <p class="nhsuk-body-s">Posted: 28 May 2024</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis fuga, inventore est dignissimos vitae hic rem qui repellendus sequi commodi doloremque, ipsum amet dolor quae.</p>
+                <p><a href="#">Read more</a></p>
+                <hr>
+                <h2 class="nhsuk-heading-m">Lorem ipsum dolor sit amet consectetur adipisicing</h2>
+                <p class="nhsuk-body-s">Posted: 9 May 2024</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus incidunt earum, quasi officiis iste error quas iure quo, illum et saepe corporis placeat porro eligendi debitis! Quasi tenetur quas magni provident, iure sapiente, impedit neque rem consectetur delectus, aliquid at.</p>
+                <p><a href="#">Read more</a></p>
+                <hr>
+                <h2 class="nhsuk-heading-m">Lorem, ipsum dolor</h2>
+                <p class="nhsuk-body-s">Posted: 11 March 2024</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde sequi autem asperiores iusto vitae. Necessitatibus aperiam sapiente, nemo sequi eum tenetur perferendis aut.</p>
+                <p><a href="#">Read more</a></p>
+                <hr>
+                <h2 class="nhsuk-heading-m">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, rerum consequuntur beatae debitis culpa laboriosam consequatur cupiditate.</h2>
+                <p class="nhsuk-body-s">Posted: 09 February 2024</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum dolorem totam et praesentium exercitationem sed itaque. Sint illo odio temporibus?</p>
+                <p><a href="#">Read more</a></p>
+                <hr>
+
+                <nav class="govuk-pagination" aria-label="Pagination">
+                    <div class="govuk-pagination__prev">
+                        <p class="nhsuk-u-margin-bottom-0 nhsuk-u-font-weight-bold">
+                            <a class="govuk-link govuk-pagination__link" href="#" rel="prev">
+                                <svg class="govuk-pagination__icon govuk-pagination__icon--prev" xmlns="http://www.w3.org/2000/svg" height="13" width="15" aria-hidden="true" focusable="false" viewBox="0 0 15 13">
+                                    <path d="m6.5938-0.0078125-6.7266 6.7266 6.7441 6.4062 1.377-1.449-4.1856-3.9768h12.896v-2h-12.984l4.2931-4.293-1.414-1.414z"></path>
+                                </svg>
+                                <span class="govuk-pagination__link-title nhsuk-u-margin-left-3">
+                                    Previous<span class="nhsuk-u-visually-hidden"> page</span>
+                                </span>
+                            </a>
+                        </p>
+                    </div>
+                    <ul class="govuk-pagination__list">
+                        <li class="govuk-pagination__item">
+                            <p class="nhsuk-u-margin-bottom-0"><a class="govuk-link govuk-pagination__link" href="#" aria-label="Page 1">
+                                    1
+                                </a></p>
+                        </li>
+                        <li class="govuk-pagination__item govuk-pagination__item--current">
+                            <p class="nhsuk-u-margin-bottom-0 nhsuk-u-font-weight-bold"><a class="govuk-link govuk-pagination__link" href="#" aria-label="Page 2" aria-current="page">
+                                    2
+                                </a></p>
+                        </li>
+                        <li class="govuk-pagination__item">
+                            <p class="nhsuk-u-margin-bottom-0"><a class="govuk-link govuk-pagination__link" href="#" aria-label="Page 3">
+                                    3
+                                </a></p>
+                        </li>
+                    </ul>
+                    <div class="govuk-pagination__next">
+                        <p class="nhsuk-u-margin-bottom-0 nhsuk-u-font-weight-bold">
+                            <a class="govuk-link govuk-pagination__link" href="#" rel="next">
+                                <span class="govuk-pagination__link-title nhsuk-u-margin-right-3">
+                                    Next<span class="nhsuk-u-visually-hidden"> page</span>
+                                </span>
+                                <svg class="govuk-pagination__icon govuk-pagination__icon--next" xmlns="http://www.w3.org/2000/svg" height="13" width="15" aria-hidden="true" focusable="false" viewBox="0 0 15 13">
+                                    <path d="m8.107-0.0078125-1.4136 1.414 4.2926 4.293h-12.986v2h12.896l-4.1855 3.9766 1.377 1.4492 6.7441-6.4062-6.7246-6.7266z"></path>
+                                </svg>
+                            </a>
+                        </p>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
